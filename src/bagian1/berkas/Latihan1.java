@@ -7,7 +7,7 @@ public static void main(String[] args) throws IOException {
 File berkas = new File("catatan.txt");
 
 if (berkas.createNewFile()) {
-System.out.println("Berkas dibuat : " + berkas.getName());
+System.out.println("Berkas dibuat : " + berkas.getName()); 
 } else {
 System.out.println("Berkas sudah ada: " + berkas.getName());
 }

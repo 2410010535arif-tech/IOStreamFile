@@ -3,7 +3,7 @@ import java.io.File;
 import java.io.IOException;
 public class Latihan2 {
 public static void main(String[] args) {
-File berkas = new File("data.txt");
+File berkas = new File("data.txt");  
 try {
 if (berkas.createNewFile()) {
 System.out.println("Berkas baru dibuat.");
