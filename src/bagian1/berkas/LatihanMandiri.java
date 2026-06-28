@@ -7,7 +7,7 @@ public class LatihanMandiri {
     public static void main(String[] args) {
 
         File berkas = new File("sementara.txt");
-       
+        
         try {
             if (berkas.createNewFile()) {
                 System.out.println("File berhasil dibuat.");
